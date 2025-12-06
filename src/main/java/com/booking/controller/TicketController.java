@@ -25,7 +25,7 @@ public class TicketController
         return new ResponseEntity<>("Ticket Booked", HttpStatus.CREATED);
     }
 
-    //get all data
+    //get all data api
     @GetMapping("/getAllData")
     public ResponseEntity<List<Ticket>> getAllTicket(){
         List<Ticket> ticketList = ticketService.getAllTicketData();
