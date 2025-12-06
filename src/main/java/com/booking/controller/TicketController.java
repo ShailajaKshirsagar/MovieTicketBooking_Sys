@@ -18,7 +18,7 @@ public class TicketController
     @Autowired
     private TicketService ticketService;
 
-    //add data
+    //add data api
     @PostMapping("/addTicket")
     public ResponseEntity<String> addData(@RequestBody Ticket ticket){
         ticketService.saveTicket(ticket);
