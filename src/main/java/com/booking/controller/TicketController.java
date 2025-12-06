@@ -39,7 +39,7 @@ public class TicketController
         return new ResponseEntity<>(ticketbyid,HttpStatus.OK);
     }
 
-    //delete
+    //delete api
     @DeleteMapping("/delete/{id}")
     public ResponseEntity<String> deleteTicket(@PathVariable("id") int id){
         ticketService.deleteTicket(id);
