@@ -32,7 +32,7 @@ public class TicketController
         return new ResponseEntity<>(ticketList,HttpStatus.OK);
     }
 
-    //get data by id
+    //get data by id api
     @GetMapping("/getById/{id}")
     public ResponseEntity<Ticket> getDataById(@PathVariable int id){
         Ticket ticketbyid = ticketService.getTicketById(id);
