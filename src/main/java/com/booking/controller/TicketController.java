@@ -46,7 +46,7 @@ public class TicketController
         return new ResponseEntity<>("Ticket deleted",HttpStatus.OK);
     }
 
-    //update
+    //update api
     @PutMapping("/update/{id}")
     public ResponseEntity<Ticket> updateTicket(@PathVariable("id")int id,@RequestBody Ticket ticket){
         Ticket updateTicket = ticketService.updateTicket(id,ticket);
