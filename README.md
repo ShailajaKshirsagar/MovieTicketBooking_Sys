@@ -22,7 +22,6 @@ This project demonstrates core backend concepts such as REST APIs, database inte
 ### 📄 Booking History
 - View all bookings made by a user  
 - Store booking details such as movie, show time, seats, and total amount
-
 ---
 
 ## 🛠 Tech Stack
